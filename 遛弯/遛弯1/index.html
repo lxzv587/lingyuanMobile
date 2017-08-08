@@ -1,0 +1,489 @@
+<!DOCTYPE html>
+<html lang="en">
+
+	<head>
+		<meta charset="UTF-8">
+		<title>遛弯</title>
+		<link rel="stylesheet" href="index.css">
+		<script src="js/jquery-1.11.3.min.js"></script>
+	</head>
+
+	<body>
+		<div class="lxz_wrap">
+			<div class="lxz_header">
+				<div class="lxz_header-inner">
+					<img src="img/logo.png" class="lxz_logo">
+					<div class="lxz_right">
+						<div class="lxz_top-r">
+							<img src="img/tel.png" class="lxz_tel">
+							<span class="lxz_sp">|</span>
+							<span class="lxz_text">登录</span>
+							<span class="lxz_sp">|</span>
+							<span class="lxz_text">注册</span>
+							<span class="lxz_sp">|</span>
+							<img src="img/bao12.png" class="lxz_bao">
+							<span class="lxz_text">行李箱</span>
+							<input type="lxz_text" class="lxz_t">
+							<input type="button" class="lxz_b">
+						</div>
+
+						<div class="lxz_bottom-l">
+							<img src="img/home.png" class="lxz_home">
+							<ul class="lxz_h-ul">
+								<li>第一次</li>
+								<li>目的地</li>
+								<li>自订行程</li>
+								<li>游记</li>
+								<li>特产</li>
+								<li>优惠</li>
+								<li>环岛巴士</li>
+
+							</ul>
+						</div>
+
+					</div>
+
+				</div>
+
+			</div>
+
+			<div class="lxz_header-1">
+				<div class="lxz_dashed1">
+					<h3>首页 > 自订行程 > 酒店</h3>
+					<ul class="scale">
+						<li>地区</li>
+						<li class="all">全部</li>
+						<li>台北</li>
+						<li>台中</li>
+						<li>嘉义</li>
+						<li>高雄</li>
+						<li>台东</li>
+						<li>花莲</li>
+					</ul>
+				</div>
+
+				<div class="lxz_dashed2">
+
+					<ul class="scale1">
+						<li>价格</li>
+						<li class="all2">全部</li>
+						<li><input type="radio" name="a">＜￥300</li>
+						<li><input type="radio" name="a">￥300-500</li>
+						<li><input type="radio" name="a">￥500-1000</li>
+						<li><input type="radio" name="a">￥1000-1200</li>
+						<li><input type="radio" name="a">＞￥1200</li>
+					</ul>
+				</div>
+
+				<div class="lxz_dashed3">
+					<ul class="scale3">
+						<li>房型</li>
+						<li class="all3">全部</li>
+						<li>标准间</li>
+						<li>大床房</li>
+						<li>套房</li>
+					</ul>
+				</div>
+
+				<a href="#" id="reset">重置筛选条件</a>
+			</div>
+
+			<div class="lxz_wz">
+				<div class="lxz_header-2">
+					<p class="lxz_tj">推荐</p>
+					<select id="select">
+						<option value="价位">价位</option>
+						<option value="100">100</option>
+						<option value="200">200</option>
+						<option value="300">300</option>
+						<option value="...">...</option>
+					</select>
+					<p class="lxz_fj">找到房间24间</p>
+				</div>
+
+				<div class="lxz_header-3">
+					<img src="img/lw_23.jpg" class="hb">
+					<div class="lxz_sl">
+						<div class="lxz_san">
+							<p class="nr">碧港良居商旅</p>
+							<img src="img/xing1.png" class="xing">
+							<img src="img/xing1.png" class="xing">
+							<img src="img/xing1.png" class="xing">
+							<img src="img/xing1.png" class="xing">
+							<img src="img/xing2.png" class="xing">
+							<img src="img/love.png" class="love">
+							<p class="like">喜欢 1168</p>
+							<img src="img/xinxi.png" class="xinxi">
+							<p class="pl">评论 1168</p>
+						</div>
+
+						<p class="address">地&nbsp;&nbsp;址： 屏东县恒春镇埔顶路535号</p>
+						<p class="ts">房间特色：2013年新开业的设计型酒店，每个房间都有不同的主题，比如拳击主题房等等</p>
+						<p class="tb">临近台北捷运府中站各种风格一应俱全，用品别致，环境干净，性价比高。</p>
+						<p class="service">服&nbsp;&nbsp;务：</p>
+						<img src="img/no1.png" class="no">
+						<span class="fast">提供早餐</span>
+						<img src="img/no2.png" class="no">
+						<span class="fast">无线网络</span>
+						<img src="img/no3.png" class="no">
+						<span class="fast">信用卡服务</span>
+					</div>
+
+				</div>
+
+			</div>
+
+			<div class="lxz_header-4">
+				<div class="lxz_bar">
+					<div class="a1">
+						<p>房型</p>
+					</div>
+
+					<div class="a2">
+						<p>早餐</p>
+					</div>
+
+					<div class="a2">
+						<p>宽带</p>
+					</div>
+
+					<div class="a2">
+						<p>床型</p>
+					</div>
+
+					<div class="a2">
+						<p>房价</p>
+					</div>
+
+					<div class="a2">
+						<p>现价</p>
+					</div>
+
+				</div>
+
+				<div class="lxz_content">
+					<div class="max">
+						<img src="img/lw_37.jpg" class="chuang">
+					</div>
+					<!--max end-->
+					<div class="min">
+						<p class="k">标准双人间</p>
+					</div>
+
+					<div class="min1">
+						<p class="k">含早</p>
+					</div>
+
+					<div class="min2">
+						<p class="k">免费</p>
+					</div>
+
+					<div class="min">
+						<p class="k">双床</p>
+					</div>
+
+					<div class="min3">
+						<p class="k"><del>￥557</del></p>
+					</div>
+
+					<div class="min4">
+						<p class="k z">￥508</p>
+					</div>
+
+					<div class="min5">
+						<input type="button" value="速订" class="ding">
+
+					</div>
+
+				</div>
+
+				<div class="lxz_content1">
+					<div class="max">
+						<img src="img/lw_40.jpg" class="chuang">
+					</div>
+
+					<div class="min">
+						<p class="k">标准双人间</p>
+					</div>
+
+					<div class="min1">
+						<p class="k">含早</p>
+					</div>
+
+					<div class="min2">
+						<p class="k">免费</p>
+					</div>
+
+					<div class="min">
+						<p class="k">双床</p>
+					</div>
+
+					<div class="min3">
+						<p class="k">
+							<del>￥557</del>
+						</p>
+					</div>
+
+					<div class="min4">
+						<p class="k z">￥508</p>
+					</div>
+
+					<div class="min5">
+						<input type="button" value="速订" class="ding">
+
+					</div>
+
+				</div>
+
+			</div>
+
+			<div class="lxz_header-3">
+				<img src="img/lw_41.jpg" class="hb">
+				<div class="lxz_sl">
+					<div class="lxz_san">
+						<p class="nr">碧港良居商旅</p>
+						<img src="img/xing1.png" class="xing">
+						<img src="img/xing1.png" class="xing">
+						<img src="img/xing1.png" class="xing">
+						<img src="img/xing1.png" class="xing">
+						<img src="img/xing2.png" class="xing">
+						<img src="img/love.png" class="love">
+						<p class="like">喜欢 1168</p>
+						<img src="img/xinxi.png" class="xinxi">
+						<p class="pl">评论 1168</p>
+					</div>
+
+					<p class="address">地&nbsp;&nbsp;址： 屏东县恒春镇埔顶路535号</p>
+					<p class="ts">房间特色：2013年新开业的设计型酒店，每个房间都有不同的主题，比如拳击主题房等等</p>
+					<p class="tb">临近台北捷运府中站各种风格一应俱全，用品别致，环境干净，性价比高。</p>
+					<p class="service">服&nbsp;&nbsp;务：</p>
+					<img src="img/no1.png" class="no">
+					<span class="fast">提供早餐</span>
+					<img src="img/no2.png" class="no">
+					<span class="fast">无线网络</span>
+					<img src="img/no3.png" class="no">
+					<span class="fast">信用卡服务</span>
+				</div>
+
+			</div>
+
+			<div class="lxz_header-4">
+				<div class="lxz_bar">
+					<div class="a1">
+						<p>房型</p>
+					</div>
+
+					<div class="a2">
+						<p>早餐</p>
+					</div>
+
+					<div class="a2">
+						<p>宽带</p>
+					</div>
+
+					<div class="a2">
+						<p>床型</p>
+					</div>
+
+					<div class="a2">
+						<p>房价</p>
+					</div>
+
+					<div class="a2">
+						<p>现价</p>
+					</div>
+
+				</div>
+
+				<div class="lxz_content">
+					<div class="max">
+						<img src="img/lw_55.jpg" class="chuang">
+					</div>
+
+					<div class="min">
+						<p class="k">标准双人间</p>
+					</div>
+
+					<div class="min1">
+						<p class="k">含早</p>
+					</div>
+
+					<div class="min2">
+						<p class="k">免费</p>
+					</div>
+
+					<div class="min">
+						<p class="k">双床</p>
+					</div>
+
+					<div class="min3">
+						<p class="k"><del>￥557</del></p>
+					</div>
+
+					<div class="min4">
+						<p class="k z">￥508</p>
+					</div>
+
+					<div class="min5">
+						<input type="button" value="速订" class="ding">
+
+					</div>
+
+				</div>
+
+				<div class="lxz_content1">
+					<div class="max">
+						<img src="img/lw_58.jpg" class="chuang">
+					</div>
+
+					<div class="min">
+						<p class="k">标准双人间</p>
+					</div>
+
+					<div class="min1">
+						<p class="k">含早</p>
+					</div>
+
+					<div class="min2">
+						<p class="k">免费</p>
+					</div>
+
+					<div class="min">
+						<p class="k">双床</p>
+					</div>
+
+					<div class="min3">
+						<p class="k">
+							<del>￥557</del>
+						</p>
+					</div>
+
+					<div class="min4">
+						<p class="k z">￥508</p>
+					</div>
+
+					<div class="min5">
+						<input type="button" value="速订" class="ding">
+
+					</div>
+
+				</div>
+
+			</div>
+
+			<div class="lxz_ys">
+				<div class="lxz_yyy">
+					<span>上一页</span>
+					<span>1</span>
+					<span>.....</span>
+					<span>12</span>
+					<span>13</span>
+					<span>14</span>
+					<span>.....</span>
+					<span>40</span>
+					<span>下一页</span>
+				</div>
+			</div>
+
+			<footer>
+				<div class="lxz_footer-inner">
+					<div class="lxz_inner">
+						<div class="lxz_fot">
+							<ul class="k1">
+								<li>关于遛湾</li>
+								<li>公司简介</li>
+								<li>联系我们</li>
+								<li>诚聘英才</li>
+								<li>网站地图</li>
+							</ul>
+
+							<ul class="k2">
+								<li>帮助中心</li>
+								<li>赴台手续</li>
+								<li>遛弯玩法</li>
+								<li>常见问题</li>
+							</ul>
+
+							<ul class="k2">
+								<li>网站条款</li>
+								<li>服务条款</li>
+								<li>免责声明</li>
+							</ul>
+
+							<ul class="k2">
+								<li>关注我们</li>
+								<li>
+									<img src="img/weibo.png" class="wb">
+									<img src="img/weixin.png" class="weixin">
+								</li>
+							</ul>
+
+							<ul class="k3">
+								<li>400 820 8820</li>
+								<li>周一至周日</li>
+								<li>9:00～20:00</li>
+								<li><input type="button" value="在线服务>>" class="lx"></li>
+							</ul>
+
+						</div>
+					</div>
+
+					<div>
+						<p class="copy">Copyright © 2013-2014 www.liuwaner.cn All Right Reserved. 京ICP备11015236号</p>
+					</div>
+				</div>
+
+			</footer>
+		</div>
+
+		<script>
+			$(function() {
+				$(".all").click(function() {
+					$(this).css("color", "red")
+					$(".scale li:nth-child(n+3)").siblings().removeClass('sb');
+				})
+
+				$(".scale li:nth-child(n+3)").click(function() {
+					$(this).siblings().removeClass('sb');
+					if($(this).is('.sb')) {
+						$(this).removeClass('sb')
+					} else {
+						$(this).addClass('sb')
+					}
+				})
+
+				$('.all2').click(function() {
+					$(this).css("color", "red")
+				})
+
+				$('.all3').click(function() {
+					$(this).css("color", "red");
+					$(".scale3 li:nth-child(n+3)").siblings().removeClass('co');
+				})
+
+				$(".scale3 li:nth-child(n+3)").click(function() {
+					$(this).siblings().removeClass('co');
+					if($(this).is('.co')) {
+						$(this).removeClass('co')
+					} else {
+						$(this).addClass('co')
+					}
+				})
+
+				$('.scale1 li:nth-child(n+2)').click(function() {
+					$(this).children().attr('checked', 'checked')
+				})
+
+				$('#reset').click(function() {
+					$('.all').css("color", "#000");
+					$('.all2').css("color", "#000");
+					$('.all3').css("color", "#000");
+					$('.scale3 li:nth-child(n+2)').css('background', '#fff');
+				})
+
+			});
+		</script>
+
+	</body>
+
+</html>
