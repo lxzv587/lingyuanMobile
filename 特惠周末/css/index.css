@@ -1,0 +1,316 @@
+*
+{
+    margin: 0;
+    padding: 0;
+
+    list-style: none;
+
+    text-decoration: none;
+}
+.banner
+{
+    width: 100% ;
+    height: 512px;
+    margin: 0 auto;
+
+    background: url(../img/banner_02.jpg) no-repeat;
+    background-color: blue;
+    background-size: 100%;
+}
+.banner-right
+{
+    float: right;
+
+    width: 401px ;
+    height: 226px ;
+    margin-top: 35px;
+    margin-right: 130px;
+
+    background-color: #c4e6f9;
+}
+.banner-right h1
+{
+    font-size: 38px;
+    line-height: 40px ;
+
+    margin-left: 30px;
+
+    color: #000;
+}
+.banner-right p
+{
+    font-size: 24px ;
+    line-height: 45px;
+
+    display: block;
+
+    margin-left: 30px;
+
+    color: #000 ;
+}
+.banner-right p span
+{
+    font-size: 24px ;
+
+    display: block;
+    float: left;
+
+    color: yellow ;
+    color: #d00 ;
+}
+.banner-right h3
+{
+    font-size: 32px;
+    line-height: 40px ;
+
+    margin-top: 45px;
+    margin-left: 30px;
+
+    color: #000;
+}
+.content
+{
+    width: 100%;
+    height: 130px;
+    margin: 0 auto;
+
+    background-color: #c0c0c0;
+}
+.content-content
+{
+    width: 954px;
+    height: 130px;
+    margin: 0 auto;
+
+    text-align: center;
+
+    background-color: #c4e6f9;
+}
+.content-content p
+{
+    font-size: 26px;
+
+    color: #4f4f4f;
+}
+.content-content a
+{
+    font-size: 32px;
+
+    color: #363636;
+}
+
+.content-center
+{
+    font-size: 32px;
+
+    width: 465px ;
+    height: 54px;
+    margin: 0 auto;
+
+    border-top: 1px solid #c0c0c0;
+    border-bottom: 1px solid #c0c0c0;
+}
+/*主体*/
+.main
+{
+    width: 100%;
+    height: 540px;
+    margin: 0 auto;
+
+    background-color: #c4e6f9 ;
+}
+.main-main
+{
+    width: 954px ;
+    height: 540px ;
+    margin: 0 auto;
+
+    background-color: navajowhite;
+}
+/*header*/
+.main-main-header
+{
+    width: 954px ;
+    height: 45px ;
+    margin: 0 auto ;
+
+    background-color: cadetblue ;
+}
+/*.main-main-header
+    .icon-feiji1
+{
+	
+	font-size: 30px;
+	 margin: 0 auto;
+}*/
+.center
+{
+    width: 269px;
+    height: 45px;
+    margin: 0 auto;
+
+    background-color: #4f4f4f ;
+}
+.main-left
+{
+    float: left;
+
+    width: 341px;
+    height: 444px;
+
+    background-color: red;
+}
+
+.main-left-first
+{
+    float: left;
+
+    width: 340px;
+    height: 120px;
+
+    background-color: firebrick;
+}
+
+.main-left-first-content
+{
+    width: 340px;
+    height: 40px ;
+    margin: 0 auto;
+    margin-top: 35px;
+
+    background-color: cornflowerblue ;
+}
+
+.main-left-first-content-tubiao
+{
+    float: left;
+
+    width: 100px;
+    height: 40px;
+
+    background-color: yellow;
+}
+
+.main-right-first-content-tubiao
+{
+    float: right;
+
+    width: 100px;
+    height: 40px;
+
+    background-color: yellow;
+}
+
+.main-left-two
+{
+    float: left;
+
+    width: 340px;
+    height: 120px;
+
+    background-color: blue;
+}
+.main-left-two-content
+{
+    width: 340px;
+    height: 90px;
+    margin: 0 auto;
+    margin-top: 20px;
+
+    background-color: fuchsia;
+}
+.main-left-two-content-left
+{
+    float: left;
+
+    width: 150px;
+    height: 90px;
+
+    background-color: yellow;
+}
+
+.main-right-two-content-tubiao
+{
+    float: right;
+
+    width: 150px;
+    height: 90px ;
+
+    background-color: forestgreen ;
+}
+.main-right-two-content-one
+{
+    float: right;
+
+    width: 150px ;
+    height: 45px;
+
+    background-color: red;
+}
+
+
+
+
+
+
+
+/*right*/
+.main-right
+{
+    float: right;
+    float: right;
+
+    width: 579px;
+    height: 441px;
+
+    background-color: lightgoldenrodyellow;
+}
+.main-right-first
+{
+    float: left;
+
+    width: 330px;
+    height: 406px;
+
+    background-color: red ;
+}
+.main-right-content
+{
+    float: left;
+
+    width: 330px ;
+    height: 184px;
+
+    background-color: darkred ;
+    ;
+}
+
+.main-right-one-content-left
+{
+    float: left;
+
+    width: 150px;
+    height: 90px;
+    margin-top: 20px;
+
+    background-color: yellow;
+}
+.main-right-one-content-tubiao
+{
+    float: right;
+
+    width: 150px;
+    height: 150px ;
+    margin-top: 20px;
+
+    background-color: forestgreen ;
+}
+.main-right-one-content-one
+{
+    float: right;
+
+    width: 150px ;
+    height: 45px;
+
+    background-color: red;
+}
